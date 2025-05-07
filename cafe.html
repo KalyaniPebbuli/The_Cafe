@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The cafe</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            background-color: black;
+            height:40px;
+            width:100%;
+            color:white;
+            padding:10px;
+            position:fixed;
+        }
+        .img1{
+            background-image: url(https://www.w3schools.com/w3images/coffeehouse.jpg);
+            width: 100%;               
+            height: 400px;             
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+        .main_img{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 30px 20px 30px;
+
+        }
+
+        .main_img1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 30px 20px 30px;
+
+        }
+
+        .img2{
+            background-image: url(https://www.w3schools.com/w3images/coffeeshop.jpg);
+            width: 50%;               
+            height: 350px;             
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding:20px;
+
+        }
+
+        .img3{
+            background-image: url(https://www.w3schools.com/w3images/coffeehouse2.jpg);
+            width: 50%;               
+            height: 350px;             
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding:20px;
+
+        }
+
+        .img4{
+            background-image: url(https://www.w3schools.com/w3images/map.jpg);
+            width: 50%;               
+            height: 350px;             
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding:0px 20px 20px 20px;
+            
+
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center; 
+            padding-top: 50px;     
+        }
+
+        .wrapper1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  
+            align-items: center; 
+            padding-top: 10px;     
+        }
+
+        .open_hours{
+
+            text-align: left;
+            padding-left:350px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+
+        .open_hours1{
+
+            text-align: left;
+            padding-left:350px;
+            padding-top: 50px;
+            padding-bottom: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+
+
+            .open_hours2{
+
+                text-align: left;
+                padding-left:350px;
+                padding-top: 50px;
+                padding-bottom: 0px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                }
+
+        .ab{
+            
+            background-color: black;
+            color:white;
+            text-align: center;
+            font-size: small;
+            display: inline-block;
+            padding:5px 10px;
+            font-size: medium;
+        }
+
+        .add{
+            padding-top: 0px;
+        }
+
+        .matter1{
+            padding:40px 280px 10px 280px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: x-large;
+        }
+
+
+        .iframe
+        {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .eat_drink{
+            background-color: rgb(189, 190, 190);
+            display: flex;
+            justify-content: center;
+            padding-top: 25px;
+            padding-bottom: 5px;
+            font-size: larger;
+            background-color: white;
+            color: black;
+
+        }
+        .eat{
+            padding-left: 0px;
+            text-align: center;
+            width:120px;
+        }
+        .drink{
+            padding-left: 20px;
+            text-align: center;
+            width:120px;
+        }
+        .eat:hover{
+            
+            background-color: rgb(175, 152, 59);
+            color: white;
+        }
+        .drink:hover{
+            
+            background-color: rgb(175, 152, 59);
+            color: white;
+        }
+
+
+        .last_content{
+            padding:20px 350px 10px 350px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: large;
+        }
+
+        .form{
+            padding-top: 10px;
+            text-align: center;
+        }
+        .submit_button{
+            text-align: left;
+            padding-left: 350px;
+        }
+
+        footer{
+            height:200px;
+            width:100%;
+            background-color: rgb(189, 190, 190);
+            color:black;
+            text-align: center;
+            padding-top:100px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header" id="header1">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#header1"><span style="color:white; font-size: large;">HOME</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#wrapper1"><span style="color:white;font-size: large;">ABOUT</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#menu1"><span style="color:white;font-size: large;">MENU</span></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#where"><span style="color:white;font-size: large;">WHERE</span></a>
+    </div>
+    <div class="img1">
+
+    </div>
+    
+    <div class="wrapper" id="wrapper1">
+
+        <div class="ab">
+            <h3>About The Cafe</h3>
+        </div>
+        <div class="matter1">
+            <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <br>
+            <p>
+                In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.
+            </p>
+            <br>
+            <p> 
+                <i style="background-color: rgb(129, 177, 179);"><blockquote> products from nature for what it's worth - but never too early, nor too late.</blockquote> Fresh is the new sweet.
+                Chef, Coffeeist and Owner: Liam Brown</i>
+            </p>
+        </div>
+    </div>
+
+    <div class="main_img">
+        <div class="img2"></div>
+    </div>
+
+    <div class="open_hours">
+        <div>
+            <strong>Opening hours:</strong> everyday from 6am to 5pm. <br><br>
+            <strong>Address:</strong>15 Adr street, 5015, NY
+        </div>
+    </div>
+
+    <div class="wrapper" id="menu1">
+        <div class="ab">
+            <h3>THE MENU</h3>
+        </div>
+    </div>
+    <div class="eat_drink">
+        <div class="eat" style="display: inline-block;">
+            <a href="./Eat.html" target="kalyani">Eat</a>
+        </div>
+        <div class="drink" style="display: inline-block;">
+            <a href="./Drink.html" target="kalyani">Drink</a>
+        </div>
+       
+    </div>
+    <div class="iframe">
+       <iframe src="./Eat.html" frameborder="7" name="kalyani" height="630px" width="40%"></iframe>
+    </div>
+
+    <div class="main_img">
+        <div class="img3"></div>
+    </div>
+
+    <div class="wrapper" id="where">
+        <div class="ab">
+            <h3>WHERE TO FIND US</h3>
+        </div>
+    </div>
+
+    <div class="open_hours2" >
+        <div class="add">
+            <i>Find us at some address at some place.</i>
+        </div>
+    </div>
+
+    <div class="main_img1">
+        <div class="img4"></div>
+    </div>
+
+    <div class="last_content">
+        <p> <span style="background-color: black; color:white;">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <br>
+        <p> <strong>Reserve </strong> a table, ask for today's special or just send us a message:
+
+        </p>
+    
+    </div>
+
+    <div class="form">
+        <form action="">
+            <input type="text" border:3px placeholder="Name" required pattern="[A-Za-z\s\-\']{1,}" style="width:650px; height:50px ">
+            <br><br>
+            <input type="text"  placeholder="How many people" required pattern="[0-9]+" style="width:650px; height:50px ">
+            <br><br>
+            <input type="datetime-local"   style="width:650px; height:50px ">
+            <br><br>
+            <input type="text" placeholder="Message \ Special Requirements" required pattern="[A-Za-z\s\-\']{1,}" style="width:650px; height:50px ">
+            <br><br>
+            <div class="submit_button">
+                <input type="submit" value="Send Message" style="background-color: black; color:white; padding:10px; border:none; font-size: large; cursor: pointer;">
+                <br><br>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div >
+            <i>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" >w3.css</a></i>
+        </div>
+    </footer>
+
+</body>
+</html>
