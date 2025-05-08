@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+            box-sizing:border-box;
+        }
+        .header{
+            height:50px;
+            width:100%;
+            background-color: rgb(119,245,245);
+            display:flex;
+            justify-content: space-around;
+            padding:15px;
+            position: fixed;
+        }
+        .icon{
+            font-size: 30px;
+        }
+        .main_container{
+            height:500px;
+            width:100%;
+            /* background-color:bisque; */
+            padding:60px 10px 10px 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .sub_container1{
+            height:450px;
+            width:20%;
+            /* background-color:blue; */
+        }
+        .img{
+            height:330px;
+            width:100%;
+            /* background-color:red; */
+            padding:10px
+        }
+        .heading{
+            height:50px;
+            width:100%;
+            /* background-color:green; */
+            text-align: center;
+        }
+        .para{
+            height:50px;
+            width:100%;
+            /* background-color:yellow; */
+            text-align: center;
+        }
+        .img1{
+            height:100%;
+            width:100%;
+            border-radius: 10px;
+        }
+        .pages{
+            height:40px;
+            width:100%;
+            /* background-color: seagreen; */
+            display:flex;
+            padding:40px;
+            flex-direction: row;
+            justify-content: center;
+            padding-bottom: 40px;
+
+        }
+        .pag{
+
+            height:30px;
+            width:40px;
+            /* border:10x solid black; */
+            /* background-color: pink; */
+        }
+        .about{
+            height:40px;
+            width:100%;
+            /* background-color: sienna; */
+            margin-top: 20px;
+            text-align: center;
+            padding:10px
+        }
+
+        .main_about{
+            text-align:center;
+            height:600px;
+            width:100%;
+            /* background-color: slateblue; */
+            padding-bottom: 60px;
+        }
+        .image4{
+            height:400px;
+            width:100%;
+            /* background-color: chartreuse; */
+            text-align: center;
+            padding-top:20px
+        }
+        .img4{
+            height:370px;
+            width:50%;
+        }
+        .image_heading{
+            height:80px;
+            width:100%;
+            /* background-color: tomato; */
+            padding-top: 20px;
+        }
+        .paragraph_image{
+            height:100px;
+            width:80%;
+            /* background-color: lightblue; */
+            padding-top: 20px;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .foot{
+            height:250px;
+            width:100%;
+            /* background-color: red; */
+            display:flex;
+            flex-direction:row;
+            justify-content: space-around;
+            
+            padding:10px;
+            padding-top: 0px;
+        }
+        .cont1{
+
+            height:230px;
+            width:30%;
+            /* background-color: chocolate; */
+            padding-top: 40px;
+            padding-left: 20px;
+            
+        }
+        .p,.i{
+
+            padding-top: 30px;
+        }
+        .blog_posts{
+            height:40px;
+            width:100%;
+            /* background-color: brown; */
+           
+        }
+
+        .blog_footer{
+            height:60px;
+            width:100%;
+            /* background-color: blue; */
+            margin-top:0px;
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-around; */
+            
+        }
+        .img_footer{
+            width:30%;
+            height:100%;
+            /* background-color: rgb(67, 34, 104); */
+
+        }
+
+        .con_footer{
+            width:40%;
+            height:100%;
+            /* background-color: rgb(19, 146, 66); */
+            padding-top: 20px;
+        }
+        .footer_image_1{
+            width: 50%;
+            height: 80px;         
+            object-fit: contain;
+        }
+
+        .last1{
+            height:80px;
+            width:100%;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        
+
+        .last{
+            width:auto;
+            color:black;
+        padding-left: 10px;
+            
+        }
+        
+        
+        
+    </style>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="icon"><ion-icon name="menu-outline"></ion-icon></div>
+        <div><b>MY FOOD</b></div>
+        <div><b>MAIL</b></div>
+    </header>
+    <div class="main_container">
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/sandwich.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3>The Perfect Sandwich, A Real NYC Classic</h3></div>
+            <div class="para"><p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/steak.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3>Let Me Tell You About This Steak</h3></div>
+            <div class="para"><p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/cherries.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3> Cherries, interrupted</h3></div>
+            <div class="para"><p>Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</p></div>
+        </div>
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/wine.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3>Once Again, Robust Wine and Vegetable Pasta</h3></div>
+            <div class="para"><p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+
+    </div>
+    <div class="main_container">
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/popsicle.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3>All I Need Is a Popsicle</h3></div>
+            <div class="para"><p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/salmon.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3>Salmon For Your Skin
+            </h3></div>
+            <div class="para"><p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/sandwich.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3> The Perfect Sandwich, A Real Classic</h3></div>
+            <div class="para"><p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+        <div class="sub_container1">
+            <div class="img"><img src="https://www.w3schools.com/w3images/croissant.jpg" class="img1" alt="Sandwich"></div>
+            <div class="heading"><h3>Le French
+            </h3></div>
+            <div class="para"><p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p></div>
+        </div>
+
+    </div>
+    <div class="pages">
+        <div class="pag"><< </div>
+        <div class="pag">1 </div>
+        <div class="pag">2 </div>
+        <div class="pag">3 </div>
+        <div class="pag">4 </div>
+        <div class="pag">>> </div>
+    </div>
+    <hr>
+    <div class="about"><h3>About Me, The Food Man</h3></div>
+
+    <div class="main_about">
+        <div class="image4"><img src="https://www.w3schools.com/w3images/chef.jpg" class="img4" alt="chef"></div>
+        <div class="image_heading">I am Who I Am! <br> <br>With Passion For Real, Good Food</div>
+        <div class="paragraph_image">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</div>
+    </div>
+    <hr>
+    <footer class="foot">
+        <div class="cont1">
+            <h3 class="f">FOOTER</h3>
+            <p class="p">Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <br>
+            <i class="i">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3schools</a></i>
+        </div>
+        <div class="cont1">
+            <div class="blog_posts">BLOG POSTS</div>
+            <div class="blog_footer">
+                <div class="img_footer"><img class="footer_image_1" src="https://www.w3schools.com/w3images/workshop.jpg"  alt=""></div>
+                <div class="con_footer">Lorem <br>Sed mattis nunc</div>
+            </div>
+            <div class="blog_footer">
+                <div class="img_footer"><img class="footer_image_1" src="https://www.w3schools.com/w3images/gondol.jpg"  alt=""></div>
+                <div class="con_footer">Ipsum <br>Praes tinci sed</div>
+            </div>
+            
+        </div>
+        <div class="cont1">
+            <div>POPULAR TAGS</div>
+            <br>
+            <br>
+            <div class="last1">
+                <div class="last">Travel</div>
+                <div class="last">New York</div>
+                <div class="last">Dinner</div>
+                <div class="last">Salmon</div>
+                <div class="last">France</div>
+                <div class="last">Drinks</div>
+                <div class="last">Ideas</div>
+                <div class="last">Flavors</div>
+                <div class="last">Cusine</div>
+                <div class="last">Chicken</div>
+                <div class="last">Dressing</div>
+                <div class="last">Fried</div>
+                <div class="last">Fish</div>
+                <div class="last">Duck</div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+
+</body>
+</html>
