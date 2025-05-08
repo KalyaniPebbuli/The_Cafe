@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid_Layout</title>
+    <style>
+        *{
+            margin:10px;
+            padding:10px;
+            box-sizing:border-box;
+        }
+        .grid-container{
+
+            background-color: aqua;
+            display:grid;
+            grid-gap:10px;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px 100px 100px;
+            grid-template-areas: 
+                "Nav_Bar Nav_Bar Nav_Bar Nav_Bar Nav_Bar Nav_Bar"
+                "Aside section-1 section-2 Main Article Article"
+                "Aside section-3 section-3 Main section-4 section-5"
+                "Footer Footer Footer Footer Footer Footer";
+
+        }
+        .class1{
+            grid-area:Nav_Bar;
+            background-color: rosybrown;
+            text-align: center;
+        }
+        .class2{
+            grid-area:Aside;
+            background-color: lightcyan;
+            text-align: center;
+        }
+        .class3{
+            grid-area:section-1;
+            background-color: lightseagreen;
+            text-align: center;
+        }
+        .class4{
+            grid-area:section-2;
+            background-color: lightpink;
+            text-align: center;
+        }
+        .class5{
+            grid-area:section-3;
+            background-color: lightsteelblue;
+            text-align: center;
+        }
+        .class6{
+            grid-area:Main;
+            background-color: linen;
+            text-align: center;
+        }
+        .class7{
+            grid-area:Article;
+            background-color: lightslategray;
+            text-align: center;
+        }
+        .class8{
+            grid-area:section-4;
+            background-color: lightgreen;
+            text-align: center;
+        }
+        .class9{
+            grid-area:section-5;
+            background-color: lightcyan;
+            text-align: center;
+        }
+        .class10{
+            grid-area:Footer;
+            background-color: lightyellow;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="class1">Nav_Bar</div>
+        <div class="class2">Aside</div>
+        <div class="class3">section-1</div>
+        <div class="class4">section-2</div>
+        <div class="class5">section-3</div>
+        <div class="class6">Main</div>
+        <div class="class7">Article</div>
+        <div class="class8">section-4</div>
+        <div class="class9">section-5</div>
+        <div class="class10">Footer</div>
+    </div>
+</body>
+</html>
